@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: url('../assets/img/aesthetic\ background.png');
+    background-size:auto;
+    background-repeat:repeat
+}
+h1, h2, h3, h4, h5, h6{
+    color: rgb(24, 56, 20);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-style: bold;
+}
+.main-content{
+    margin-left: 220px;
+    padding:20px;
+
+}
+.sidebar{
+    background-color:rgb(98, 51, 18);
+    width:200px;
+    height: 100%;
+    left:0;
+    padding:15px;
+    position:fixed;
+
+}
+.sidebar ul{
+    margin:15px 0;
+}
+.sidebar ul li{
+    list-style:none;
+    padding:0;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration:none;
+}
+.sidebar ul li a:hover{
+    text-decoration:underline;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(52, 44, 31); /* White navbar background */
+    
+}
+
+.navbar a {
+    color: #ffffff; /* Soft brown color */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lightened hover effect with soft color */
+    border-radius: 5px;
+    color: #7f7f7f; /* Darker brown for better contrast on hover */
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4A3A30; /* Dark brown color */
+}
+
+.box-model{
+    padding:15px;
+    background-color:antiquewhite;
+    border:5px solid rgb(45, 87, 40);
+    margin: 20px;
+}
+
